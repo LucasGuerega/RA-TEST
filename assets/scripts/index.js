@@ -1,15 +1,15 @@
-const btnFecho = document.querySelector("#btn6");
-const btnLinkedin = document.querySelector("#btn1");
+const btnGithub = document.querySelector("#github-button");
+const btnLinkedin = document.querySelector("#linkedin-button");
 const btnTwitter = document.querySelector("#twitter-button");
 const btnEmail = document.querySelector("#email-button");
 const btnWebsite = document.querySelector("#web-button");
 
-btnFecho.addEventListener('click', () => {
-    window.open('https://raw.githubusercontent.com/LucasGuerega/RA-TEST/main/assets/images/material/fecho.gif', '_blank');
+btnGithub.addEventListener('click', () => {
+    window.open('https://github.com/pitanglabs', '_blank');
 });
 
 btnLinkedin.addEventListener('click', () => {
-    window.open('https://twitter.com/', '_blank');
+    window.open('https://linkedin.com/in/', '_blank');
 });
 
 btnTwitter.addEventListener('click', () => {
